@@ -1,0 +1,5 @@
+CREATE TABLE lightlevel(
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    light_value varchar(30),
+    reading_time TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+);
